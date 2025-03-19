@@ -1,0 +1,5 @@
+site_name: Custcodian -- Automated Supply-Chain Cleanup
+
+markdown_extensions: 
+- attr_list
+- md_in_html
