@@ -1,12 +1,21 @@
+---
+hide:
+- navigation
+- toc
+---
+
 # Custcodian
 
-Automated supply-chain cleanup
+<div class="tagline">Automated supply-chain cleanup</div>
 
 ---
 
 <div class="grid" markdown>
 
-cartoon
+![Image of a friendly custodian leaning on a broom](images/custcodian-doodle.png){width="300px"}
+/// caption
+(yes, art is not my gift)
+///
 
 video
 
@@ -16,38 +25,14 @@ video
 
 Custcodian offers the following services:
 
-- Cloud-hosted [Minder](https://mindersec.github.io)
+## [Cloud-hosted Minder](hosted/index.md)
 
-  The easiest way to get started with Minder
+The easiest way to get started with [Minder](https://mindersec.github.io)
 
-- Support for Self-Hosted Minder
+## [Support for Self-Hosted Minder](services/index.md#on-premises-hosting)
 
-  Enterprise-grade Minder hosting
+Enterprise-grade Minder hosting
 
-- Profile and Policy development
+## [Profile and Policy development](services/index.md#profile-and-policy-development)
 
-  Work with our experts to implement customized policies for your organization
-
----
-
-<div class="grid" markdown>
-
-<div>
-
-<h3>Products and Services</h3>
-
-- Hosted Minder
-- On-premises Support
-- Implementation Consulting
-
-</div>
-
-<div>
-
-<h3>About Custcodian</h3>
-
-- About us
-- FAQ
-</div>
-
-</div>
+Work with our experts to implement customized policies for your organization

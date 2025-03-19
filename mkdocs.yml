@@ -1,5 +1,56 @@
-site_name: Custcodian -- Automated Supply-Chain Cleanup
+site_name: Custcodian
+# -- Automated Supply-Chain Cleanup
+
+theme:
+  name: material
+
+  custom_dir: overrides
+
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.integrate
+    - content.tabs.link
+  
+  font:
+    text: "Open Sans"
+    code: "Fira Code"
+    header: "Boldonse"
+
+extra_css:
+  - stylesheets/extra.css
+
+# extra:
+  # social:
+  # - name: Hosted Minder
+  #   icon: minder-mini
+  #   link: hosted
+
+not_in_nav: /about
+
+copyright: |
+    <div class="grid">
+      <ul>
+        <li><a href="/hosted">Hosted Minder</a></li>
+        <li><a href="/services#on-premises-hosting">On-premises hosting</a></li>
+        <li><a href="/services#profile-and-policy-development">Implementation Consulting</a></li>
+      </ul>
+      <ul>
+        <li><a href="/about">About us</a></li>
+        <li><a href="/about#faqs">FAQ</a></li>
+    </div>
+
+plugins:
+- privacy
 
 markdown_extensions: 
 - attr_list
 - md_in_html
+- pymdownx.superfences
+- pymdownx.blocks.caption
+- pymdownx.tabbed:
+    alternate_style: true
+    combine_header_slug: true
