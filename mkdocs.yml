@@ -1,6 +1,8 @@
 site_name: Custcodian
 # -- Automated Supply-Chain Cleanup
 
+site_url: https://custcodian.dev/
+
 theme:
   name: material
 
