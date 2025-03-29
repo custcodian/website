@@ -12,7 +12,7 @@ hide:
 
 <div class="grid" markdown>
 
-![Image of a friendly custodian leaning on a broom](images/custcodian-doodle.png){width="300px"}
+![Image of a friendly custodian leaning on a broom](images/custcodian-doodle.webp){width="300px"}
 /// caption
 (yes, art is not my gift)
 ///
