@@ -34,3 +34,30 @@ Apply the profile to the target instance:
 ```
 minder apply --grpc-host api.custcodian.dev -f $NAME.yaml
 ```
+
+## Migrating Repositories
+
+To register repositories on the new Minder instance, you'll need to start by enrolling each organization into the Minder instance as a separate provider.  You can get a list of providers and repositories from the source Minder instance (in this example, the Stacklok-hosted cloud instance) with:
+
+```
+minder auth login --grpc-host api.stacklok.com
+minder provider list --grpc-host api.stacklok.com
+minder repo list --grpc-host api.stacklok.com
+```
+
+In particular, take note of the provider names (which will look like `github-app-$ORGNAME`) and the `OWNER` and `NAME` fields in the repository listing.
+
+To enroll the organizations in the new Minder instance (using the [Custcodian hosted instance](./index.md) as an example):
+
+```
+minder auth login --grpc-host api.custcodian.dev
+# For each GitHub organization, run the following command, and select
+# the organization in the GitHub App installation flow that follows:
+minder provider enroll --grpc-host api.custcodian.dev
+```
+
+Once you have enrolled the organizations with the Minder GitHub app, you can register each repository with the following command:
+
+```
+minder repo register --grpc-host api.custcodian.dev -n owner1/repo1,owner1/repo2,owner2/repo3
+```
