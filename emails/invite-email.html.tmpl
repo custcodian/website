@@ -1,0 +1,68 @@
+<h1
+  style="
+    background-color: #004777;
+    color: #cacaca;
+    font-family: 'Josefin Sans', 'Arial Nova', 'Nimbus Sans', Roboto, Arial,
+      sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 32px 0;
+    text-align: center;
+    min-height: 100%;
+    width: 100%;
+  "
+>Minder by Custcodian
+</h1>
+
+<div
+  style="
+    background-color: #cacaca;
+    color: #000000;
+    font-family: 'Josefin Sans', 'Arial Nova', 'Nimbus Sans', Roboto, Arial,
+      sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 32px 0;
+  "
+>
+  <p>
+    <strong>{{.AdminName}}</strong> has invited you to become <strong>{{.RoleName}}</strong> in
+    the <strong>{{.OrganizationName}}</strong> organization in Minder.
+  </p>
+
+<!-- TODO: add InvitationURL here -->
+
+  <p>
+    Once you accept, you'll be able to {{.RoleVerb}} in the {{.OrganizationName}}
+    organization in Minder.  To accept the invitation, you'll need to download the
+    <code>minder</code> command line and use <code>minder auth invite accept</code>
+    to accept the invitation.
+  </p>
+
+  <p>
+    This invitation was sent to <strong>{{.RecipientEmail}}</strong>. If you were not
+    expecting it, you can ignore this email.
+  </p>
+
+  <p>
+    <a href="https://custcodian.dev/" style="color: #6941c6">Minder
+    by Custcodian</a> is an open source platform that helps development
+    teams and open source communities build more secure software,
+    and prove to others that what they’ve built is secure.
+  </p>
+
+  <p>
+    For more about Custcodian, see https://custcodian.dev/
+  </p>
+
+  <p>
+    Happy coding!
+    <br>The Custcodian team
+  </p>
+</div>
+
+<!-- TODO: add footer / logo -->
