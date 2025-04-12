@@ -1,0 +1,49 @@
+name: Publish email templates
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  packages: write
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: docker/setup-buildx-action@v3
+    - name: Compute version number
+      id: version-string
+      run: |
+        DATE="$(date +%Y%m%d)"
+        COMMIT="$(git rev-parse --short HEAD)"
+        echo "tag=0.$DATE.$GITHUB_RUN_NUMBER+ref.$COMMIT" >> "$GITHUB_OUTPUT"
+
+    - uses: docker/login-action@v3
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+
+    - uses: docker/metadata-action@v5
+      id: meta
+      with:
+        images: custcodian/email-templates
+        tags: ${{ steps.version-string.outputs.tag }}
+  
+    - name: Build image
+      uses: docker/build-push-action@v6
+      with:
+        context: ./emails
+        push: true
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
+
+    - name: Generate attestations
+      uses: actions/attest-build-provenance@v2
+      with:
+        subject-name: ghcr.io/custcodian/email-templates
+        subject-digest: ${{ steps.push.outputs.digest }}
+        push-to-registry: true
