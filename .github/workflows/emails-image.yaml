@@ -30,7 +30,7 @@ jobs:
     - uses: docker/metadata-action@v5
       id: meta
       with:
-        images: custcodian/email-templates
+        images: ghcr.io/custcodian/email-templates
         tags: ${{ steps.version-string.outputs.tag }}
   
     - name: Build image
