@@ -41,6 +41,7 @@ jobs:
         tags: ${{ steps.version-string.outputs.tag }}
   
     - name: Build image
+      id: push
       uses: docker/build-push-action@v6
       with:
         context: ./emails
