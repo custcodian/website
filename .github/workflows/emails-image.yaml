@@ -2,6 +2,11 @@ name: Publish email templates
 
 on:
   push:
+    branches:
+      - main
+    paths:
+      - emails/**
+      - .github/workflows/emails-image.yaml
   workflow_dispatch:
 
 permissions:
