@@ -1,6 +1,8 @@
-{{.AdminName}} has invited you to become {{.RoleName}} in the {{.OrganizationName}} organization in Minder by Custcodian.
+{{.AdminName}} has invited you to become {{.RoleName}} in the {{.OrganizationName}} organization in Minder by Custcodian.  If you have the Minder command line installed, you can run the following to accept the invitation:
 
-Once you accept, you’ll be able to {{.RoleVerb}} the {{.OrganizationName}} organization in Minder by Custcodian.
+  minder auth invite accept {{.InvitationCode}}
+
+If you do not have the Minder command line installed, you can install it from https://mindersec.github.io/getting_started/install_cli.  Once you accept, you’ll be able to {{.RoleVerb}} the {{.OrganizationName}} organization in Minder by Custcodian.  To accept the invitation, run the following command:
 
 This invitation was sent to {{.RecipientEmail}}. If you were not expecting it, you can ignore this email.
 
