@@ -5,6 +5,8 @@ site_url: https://custcodian.dev/
 
 theme:
   name: material
+  logo: images/custcodian-head.png
+  favicon: images/favicon.ico
 
   # We don't need this yet, but can get more detailed (e.g. footer link customization)
   # by creating this directory and overloading the theme contents.

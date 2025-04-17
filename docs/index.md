@@ -4,7 +4,7 @@ hide:
 - toc
 ---
 
-# Custcodian
+# ![Head of a friendly custodian](images/custcodian-head.png){width="80px" height="80px"} Custcodian
 
 <div class="tagline">Automated supply-chain cleanup</div>
 
@@ -12,7 +12,7 @@ hide:
 
 <div class="grid" markdown>
 
-![Image of a friendly custodian leaning on a broom](images/custcodian-doodle.webp){width="300px"}
+![Image of a friendly custodian leaning on a broom](images/custcodian-doodle.webp){width="300px" height="422px"}
 /// caption
 (yes, art is not my gift)
 ///
