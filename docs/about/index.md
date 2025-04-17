@@ -1,6 +1,6 @@
 # About Us
 
-Custcodian is currently a one-man band, operated by [Evan Anderson](https://www.linkedin.com/in/evankanderson/).  You can contact him at [evan.k.anderson@gmail.com](mailto:evan.k.anderson@gmail.com) until he gets business email sorted out.
+Custcodian is currently a one-man band, operated by [Evan Anderson](https://www.linkedin.com/in/evankanderson/).  You can contact him at [evan@custcodian.dev](mailto:evan@custcodian.dev), or [book a consultation online](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2TtUdZyQ9RjPuzKispy0l5OaUt_xJS1Q-GZ39oWyrMK4u0Yf9EMorX2LRJ9MAYYb2ROU8cxdGJ).
 
 Our infrastructure is hosted on DigitalOcean.
 
@@ -8,7 +8,7 @@ Our infrastructure is hosted on DigitalOcean.
 
 ### Why "Custcodian"?
 
-Minder is kind of a Code Custodian, and I wanted something that was unique when you Googled it.  Also, I'm bad at names.  If you want to suggest a really awesome name, I might change the company name, and send you a pile of swag when I get some made.  Otherwise, "custcodian" it is.
+Minder is kind of a Code Custodian, and I wanted something that was unique when you Googled it.  Also, I'm bad at names.  If you want to suggest a really awesome name, I might change the company name, and send you a pile of swag when I get some made.  Otherwise, "Custcodian" it is.
 
 ### What's your pricing?  I'm allergic to "contact us for a sales pitch".
 
