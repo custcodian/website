@@ -4,7 +4,7 @@ hide:
 - toc
 ---
 
-# ![Head of a friendly custodian](images/custcodian-head.png){width="80px" height="80px"} Custcodian
+# Custcodian
 
 <div class="tagline">Automated supply-chain cleanup</div>
 
