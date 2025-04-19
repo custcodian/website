@@ -35,7 +35,14 @@
     the <strong>{{.OrganizationName}}</strong> organization in Minder.
   </p>
 
-  <pre style="padding: 32px 8px;">{{.InvitationCode}}</pre>
+  <div>Your invitation code is:
+  <pre
+    style="
+      padding: 4px 12px;
+      background-color: #36394d
+      color: #ffffff
+    ">{{.InvitationCode}}</pre>
+  </div>
 
 <!-- TODO: add InvitationURL here -->
 
@@ -43,7 +50,8 @@
     Once you accept, you'll be able to {{.RoleVerb}} in the <strong>{{.OrganizationName}}</strong>
     organization in Minder.  To accept the invitation, you'll need to
     <a href="https://mindersec.github.io/getting_started/install_cli">download the
-    <code>minder</code> command line</a> and use <code>minder auth invite accept {{.InvitationCode}}</code>
+    <code>minder</code> command line</a> and use
+    <pre>minder auth invite accept {{.InvitationCode}}</pre>
     to accept the invitation.
   </p>
 
