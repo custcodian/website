@@ -51,6 +51,9 @@ copyright: |
 
 plugins:
 - privacy
+- redirects:
+    redirect_maps:
+      'calendar.md': https://calendar.app.google/JCAHQ9L45DwmUzqS8
 
 markdown_extensions: 
 - attr_list
