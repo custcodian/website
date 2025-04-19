@@ -1,6 +1,10 @@
 # About Us
 
-Custcodian is currently a one-man band, operated by [Evan Anderson](https://www.linkedin.com/in/evankanderson/).  You can contact him at [evan@custcodian.dev](mailto:evan@custcodian.dev), or [book a consultation online](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2TtUdZyQ9RjPuzKispy0l5OaUt_xJS1Q-GZ39oWyrMK4u0Yf9EMorX2LRJ9MAYYb2ROU8cxdGJ).
+Custcodian is currently a one-man band, operated by [Evan Anderson](https://www.linkedin.com/in/evankanderson/).  You can contact him at [evan@custcodian.dev](mailto:evan@custcodian.dev), or book a consultation online:
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<iframe src="https://calendar.google.com/calendar/appointments/AcZssZ0fFDkSX3hBvj5S5rI6xPnhBlwiOROTBZpLdtM=?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+<!-- end Google Calendar Appointment Scheduling -->
 
 Our infrastructure is hosted on DigitalOcean.
 
@@ -20,4 +24,4 @@ The current UI for Stacklok Cloud is not open source.  I'm planning to develop a
 
 ### Why not run Minder on my own?
 
-Go ahead!  I'll even be happy to answer questions on OpenSSF Slack (`#minder`).  On the other hand, paying me means that I'll be more likely to work on enhancements, and it will help me cover the hosting bills.
+Go ahead!  I'll even be happy to answer questions on [OpenSSF Slack](http://slack.openssf.org/) ([`#minder`](https://openssf.slack.com/archives/C07SP9RSM2L)).  On the other hand, paying me means that I'll be more likely to work on enhancements, and it will help me cover the hosting bills.
