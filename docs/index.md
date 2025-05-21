@@ -17,7 +17,7 @@ hide:
 (yes, art is not my gift)
 ///
 
-video
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YrIdOdX1dCI?si=Pqw5v10FDxSJ4-Xl" title="Getting Started with Minder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
 
