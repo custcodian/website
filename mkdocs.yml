@@ -54,7 +54,10 @@ copyright: |
     </div>
 
 plugins:
-- privacy
+- privacy:
+    # Temporarily exclude plausible.io scripts which are GDPR-compliant (until we can set up proxies)
+    assets_exclude:
+      - plausible.io/*
 - material-plausible
 - redirects:
     redirect_maps:
