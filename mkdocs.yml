@@ -29,11 +29,15 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-# extra:
+extra:
   # social:
   # - name: Hosted Minder
   #   icon: minder-mini
   #   link: hosted
+  analytics:
+    provider: plausible
+    domain: custcodian.dev
+    # TODO: set up custom domain proxy
 
 not_in_nav: /about
 
@@ -51,6 +55,7 @@ copyright: |
 
 plugins:
 - privacy
+- material-plausible
 - redirects:
     redirect_maps:
       'calendar.md': https://calendar.app.google/JCAHQ9L45DwmUzqS8
