@@ -37,7 +37,9 @@ extra:
   analytics:
     provider: plausible
     domain: custcodian.dev
-    # TODO: set up custom domain proxy
+    # TODO: set up custom domain proxy.  In the meantime, we need to set
+    # `api` since the `privacy` plugin will download the JS
+    api: "https://plausible.io/api/event"
 
 not_in_nav: /about
 
@@ -54,10 +56,7 @@ copyright: |
     </div>
 
 plugins:
-- privacy:
-    # Temporarily exclude plausible.io scripts which are GDPR-compliant (until we can set up proxies)
-    assets_exclude:
-      - plausible.io/*
+- privacy
 - material-plausible
 - redirects:
     redirect_maps:
