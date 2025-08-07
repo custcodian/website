@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: "github-actions"
+  directories:
+  - /
+  schedule:
+    interval: "weekly"  # .schedule_interval
+  open-pull-requests-limit: 10
+
+- package-ecosystem: "pip"
+  directories:
+  - /
+  schedule:
+    interval: "weekly"  # .schedule_interval
+  open-pull-requests-limit: 10
+
+- package-ecosystem: "uv"
+  directories:
+  - /
+  schedule:
+    interval: "weekly"  # .schedule_interval
+  open-pull-requests-limit: 10
+
+- package-ecosystem: "docker"
+  directories:
+  - /emails/
+  schedule:
+    interval: "weekly"  # .schedule_interval
+  open-pull-requests-limit: 10
