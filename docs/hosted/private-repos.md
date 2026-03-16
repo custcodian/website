@@ -15,25 +15,28 @@ can either directly pay Custcodian, or use [GitHub Sponsors](https://github.com/
 
 <div class="grid cards" markdown>
 
-- ### Open Source
+-  ### Open Source
 
    ***
-   - Unlimited Repositories
-   - Free
 
-- ### Startup
+   -  Unlimited Repositories
+   -  Free
 
-   ***
-   - 10 private repositories
-   - $25/month
-
-- ### Team
+-  ### Startup
 
    ***
-   - 50 private repositories
-   - $100/month
 
-- ### Organization
+   -  10 private repositories
+   -  $25/month
+
+-  ### Team
+
+   ***
+
+   -  50 private repositories
+   -  $100/month
+
+-  ### Organization
 
    ***
 
@@ -43,6 +46,6 @@ can either directly pay Custcodian, or use [GitHub Sponsors](https://github.com/
 
 ## Features Included
 
-- Unlimited collaborators per repository (no per-seat pricing!)
-- [Support requests](../about/support.md)
-- (Future) Additional supply chain security policies not published in open source
+-  Unlimited collaborators per repository (no per-seat pricing!)
+-  [Support requests](../about/support.md)
+-  (Future) Additional supply chain security policies not published in open source
