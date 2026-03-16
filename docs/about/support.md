@@ -7,24 +7,25 @@ Custcodian provides Minder support for both open source and commercial customers
 
 ## Coverage
 
--  **Open Source (Free)**: Support available for users managing public open-source repositories
-   using the [cloud-hosted Minder instance](../hosted/index.md) (`api.custcodian.dev`). This support
-   covers:
+ * **Open Source (Free)**: Support available for users managing public open-source repositories
+    using the [cloud-hosted Minder instance](../hosted/index.md) (`api.custcodian.dev`). This
+    support covers:
 
-   -  Client installation and authentication
-   -  GitHub Actions related to Minder ([minder-action](https://github.com/mindersec/minder-action)
-      and [sync-catalog](https://github.com/custcodian/sync-catalog))
-   -  Rule definitions and profile advice
+    *  Client installation and authentication
+    * GitHub Actions related to Minder
+        ([minder-action](https://github.com/mindersec/minder-action) and
+        [sync-catalog](https://github.com/custcodian/sync-catalog))
+    * Rule definitions and profile advice
 
--  **Commercial (Paid)**: Support available for customers with
-   [private repository management subscriptions](../hosted/private-repos.md) or
-   [private Minder instance consulting](../services/index.md). Includes all of the above, along
-   with:
+ * **Commercial (Paid)**: Support available for customers with
+    [private repository management subscriptions](../hosted/private-repos.md) or
+    [private Minder instance consulting](../services/index.md). Includes all of the above, along
+    with:
 
-   -  Custom rule development
-   -  IdP integration advice
-   -  Custom Minder feature development -- either on a branch, or to be merged upstream
-   -  Migration assistance
+    * Custom rule development
+    * IdP integration advice
+    * Custom Minder feature development -- either on a branch, or to be merged upstream
+    * Migration assistance
 
 ## Enterprise Support
 
