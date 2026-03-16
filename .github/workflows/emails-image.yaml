@@ -28,7 +28,7 @@ jobs:
         COMMIT="$(git rev-parse --short HEAD)"
         echo "tag=0.$DATE.$GITHUB_RUN_NUMBER+ref.$COMMIT" >> "$GITHUB_OUTPUT"
 
-    - uses: docker/login-action@v3
+    - uses: docker/login-action@v4
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
