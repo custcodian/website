@@ -13,39 +13,13 @@ can either directly pay Custcodian, or use [GitHub Sponsors](https://github.com/
 
 ## Pricing
 
-<div class="grid cards" markdown>
-
--  ### Open Source
-
-   ***
-
-   -  Unlimited Repositories
-   -  Free
-
--  ### Startup
-
-   ***
-
-   -  10 private repositories
-   -  $25/month
-
--  ### Team
-
-   ***
-
-   -  50 private repositories
-   -  $100/month
-
--  ### Organization
-
-   ***
-
-   [contact support](../about/support.md) for pricing and availability
-
-</div>
+| Open Source                   | Startup                       | Team                          | Organization                           |
+| ----------------------------- | ----------------------------- | ----------------------------- | -------------------------------------- |
+| Unlimited public repositories | Up to 10 private repositories | Up to 50 private repositories | Inquire                                |
+| **Pricing**: Free             | **Pricing**: $25/month        | **Pricing**: $100/month       | [Contact support](../about/support.md) |
 
 ## Features Included
 
--  Unlimited collaborators per repository (no per-seat pricing!)
--  [Support requests](../about/support.md)
--  (Future) Additional supply chain security policies not published in open source
+-   Unlimited collaborators per repository (no per-seat pricing!)
+-   [Support requests](../about/support.md)
+-   (Future) Additional supply chain security policies not published in open source
