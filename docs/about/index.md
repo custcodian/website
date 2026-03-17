@@ -16,7 +16,7 @@ Minder is kind of a Code Custodian, and I wanted something that was unique when 
 
 ### What's your pricing?  I'm allergic to "contact us for a sales pitch".
 
-For public repos, the [cloud-hosted instance](/hosted) is free.  For private repos, I currently have a single tier -- $500/year, or $50/month, for up to 60 private repos.  If there's interest and demand, I'll work on a full pricing structure, but my current focus is improving Minder rather than fancy business things.
+For public repos, the [cloud-hosted instance](../hosted/index.md) is free.  For [private repos](../hosted/private-repos.md), I currently have two public tiers -- $25/month, for up to 10 private repos, and $100/month for up to $50 private repos.  If there's interest and demand, I'll work on a full pricing structure, but my current focus is improving Minder rather than fancy business things.
 
 ### What about a GUI (web UI)?
 
