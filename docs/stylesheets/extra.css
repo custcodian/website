@@ -28,14 +28,15 @@ div.tagline {
     margin: 0;
 }
 
-th {
+/* There is a table:not([class]) selector we need to be more specific than for this pricing table. */
+#pricing + div#prices table {
     font-size: 120%;
-    font-weight: 700;
+    border: 0px;
 }
 
-#pricing + div#prices table {
-    font-size: 140%;
-    border: 0px;
+#pricing + div#prices table th {
+    font-size: 120%;
+    font-weight: 700;
 }
 
 

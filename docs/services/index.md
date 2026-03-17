@@ -4,7 +4,7 @@ We're happy to chat about custom services related to Minder.
 
 ## On-Premises Hosting
 
-While some users may prefer our [cloud-hosted instance](/hosted), others may prefer to implement their own Minder instance on their own corporate-managed infrastructure.  This is a cost-benefit tradeoff, and there are no "right" answers.  We'd be happy to help with an initial proof-of-concept trial, a production implementation of Minder (including any customization needed for your enterprise), or ongoing support and maintenance of Minder installations.
+While some users may prefer our [cloud-hosted instance](../hosted/index.md), others may prefer to implement their own Minder instance on their own corporate-managed infrastructure.  This is a cost-benefit tradeoff, and there are no "right" answers.  We'd be happy to help with an initial proof-of-concept trial, a production implementation of Minder (including any customization needed for your enterprise), or ongoing support and maintenance of Minder installations.
 
 ## Profile and Policy Development
 
