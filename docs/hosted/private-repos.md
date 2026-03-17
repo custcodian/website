@@ -13,10 +13,12 @@ can either directly pay Custcodian, or use [GitHub Sponsors](https://github.com/
 
 ## Pricing
 
+<div id="prices" class="pricing" markdown>
 | Open Source                   | Startup                       | Team                          | Organization                           |
 | ----------------------------- | ----------------------------- | ----------------------------- | -------------------------------------- |
 | Unlimited public repositories | Up to 10 private repositories | Up to 50 private repositories | Inquire                                |
 | **Pricing**: Free             | **Pricing**: $25/month        | **Pricing**: $100/month       | [Contact support](../about/support.md) |
+</div>
 
 ## Features Included
 
