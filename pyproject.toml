@@ -7,5 +7,5 @@ requires-python = ">=3.11"
 dependencies = [
     "material-plausible-plugin>=0.3.0",
     "mkdocs-material>=9.6.9",
-    "mkdocs-redirects>=v1.2.2",
+    "mkdocs-redirects>=1.2.3",
 ]
