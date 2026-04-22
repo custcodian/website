@@ -20,7 +20,7 @@ For public repos, the [cloud-hosted instance](../hosted/index.md) is free.  For 
 
 ### What about a GUI (web UI)?
 
-The current UI for Stacklok Cloud is not open source.  I'm planning to develop a new UI in the next month or so for Custcodian -- I expect that the UI will _probably_ be open-source, but since I'm still in the design phase, I might discover reasons for it not to be.  If you're interested in collaborating on a web UI, drop me a note and you can probably influence the plans.
+The current UI for Stacklok Cloud is not open source.  I've built a new UI for Custcodian -- I expect that the UI will _probably_ be open-sourced and donated to the OpenSSF in the near future.  You can try the current UI at https://console.custcodian.dev/ while it's still in the process of being built.
 
 ### Why not run Minder on my own?
 
