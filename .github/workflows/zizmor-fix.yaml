@@ -41,6 +41,7 @@ jobs:
             --env "GH_TOKEN=${{ github.token }}" \
             "${image}" \
             --no-exit-codes \
+            --fix=all \
             -- \
             .
 
