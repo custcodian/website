@@ -42,6 +42,12 @@ jobs:
           docker pull "${image}"
           echo "::endgroup::"
 
+          image="ghcr.io/zizmorcore/zizmor:latest@$sha256:8e6b3e4fb74d1aa5d23e83ea369f386c66eced0d1fb944d32cd8b2aac100b00d"
+
+          echo "::group::Pulling zizmor image"
+          docker pull "${image}"
+          echo "::endgroup::"
+
           # Run the fix command, including potentially-unsafe fixes.
           # I'm feeling bold!
           docker run \
