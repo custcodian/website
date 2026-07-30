@@ -38,7 +38,7 @@ jobs:
             --rm \
             --volume "${GITHUB_WORKSPACE}:/workspace:rw" \
             --workdir "/workspace" \
-            --env "GH_TOKEN=${GH_TOKEN}" \
+            --env "GH_TOKEN=${{ github.token }}" \
             "${image}" \
             -- \
             .
