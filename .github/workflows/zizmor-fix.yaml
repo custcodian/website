@@ -40,8 +40,8 @@ jobs:
             --workdir "/workspace" \
             --env "GH_TOKEN=${{ github.token }}" \
             "${image}" \
-            -- \
             --no-exit-codes \
+            -- \
             .
 
       - name: Generate a PR with the fixes
