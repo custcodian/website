@@ -1,0 +1,42 @@
+name: GitHub Actions Security Analysis with zizmor 🌈
+
+on:
+  schedule:
+    - cron: '0 9 * * 5' # every Friday at 9 AM
+  workflow_dispatch:
+    inputs: {}
+
+permissions: {}
+
+jobs:
+  zizmor:
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      contents: write  # TODO: move the create PR to a separate job and pass repo via artifact?
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Run zizmor 🌈
+        uses: zizmorcore/zizmor-action@6fc4b006235f201fdab3722e17240ab420d580e5 # v0.6.1
+
+      - name: Fix issues with zizmor 🌈
+        shell: bash
+        run: |
+          #!/usr/bin/env bash
+          set -euo pipefail
+
+          # Run the fix command, including potentially-unsafe fixes.
+          # I'm feeling bold!
+          zizmor --fix=unsafe
+
+      - name: Generate a PR with the fixes
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "fix: Apply security fixes from zizmor 🌈"
+          title: "fix: Apply security fixes from zizmor 🌈"
+          body: "This PR applies security fixes identified by the zizmor 🌈 GitHub Action."
