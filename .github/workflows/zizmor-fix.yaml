@@ -12,9 +12,9 @@ jobs:
   zizmor:
     runs-on: ubuntu-latest
     permissions:
+      actions: write
       security-events: write
       contents: write  # TODO: move the create PR to a separate job and pass repo via artifact?
-      workflows: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
