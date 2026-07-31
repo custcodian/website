@@ -50,5 +50,6 @@ jobs:
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           commit-message: "fix: Apply security fixes from zizmor 🌈"
+          branch: zizmor-fixes
           title: "fix: Apply security fixes from zizmor 🌈"
           body: "This PR applies security fixes identified by the [zizmor](https://github.com/zizmorcore/zizmor) 🌈 tool."
