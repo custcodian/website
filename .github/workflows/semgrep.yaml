@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Run Semgrep
         run: semgrep ci --config auto --sarif-output=semgrep.sarif
       - name: Upload SARIF results
