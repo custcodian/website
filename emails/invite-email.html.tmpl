@@ -2,12 +2,11 @@
   style="
     background-color: #4051b5;
     color: #ffffff;
-    font-family: 'Josefin Sans', 'Arial Nova', 'Nimbus Sans', Roboto, Arial,
-      sans-serif;
+    font-family: 'Josefin Sans', 'Arial Nova', 'Nimbus Sans', Roboto, Arial, sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 1.4;
     margin: 0;
     padding: 32px 0;
     text-align: center;
@@ -21,8 +20,7 @@
   style="
     background-color: #ffffff;
     color: #000000;
-    font-family: 'Josefin Sans', 'Open Sans', 'Arial Nova', 'Nimbus Sans', Roboto, Arial,
-      sans-serif;
+    font-family: 'Josefin Sans', 'Open Sans', 'Arial Nova', 'Nimbus Sans', Roboto, Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
@@ -35,37 +33,43 @@
     the <strong>{{.OrganizationName}}</strong> organization in Minder.
   </p>
 
-  <div>Your invitation code is:
-  <pre
-    style="
-      padding: 4px 12px;
-      background-color: #36394d
-      color: #ffffff
-    ">{{.InvitationCode}}</pre>
+  <div style="text-align: center; padding: 8px 16px; background-color: #4051b5; color: #ffffff; border: none; border-radius: 6px; cursor: pointer;">
+    <a href="{{.MinderURL}}/invite?code={{.InvitationCode}}">Accept Invitation</a>
   </div>
-
-<!-- TODO: add InvitationURL here -->
 
   <p>
     Once you accept, you'll be able to {{.RoleVerb}} in the <strong>{{.OrganizationName}}</strong>
-    organization in Minder.  To accept the invitation, you'll need to
-    <a href="https://mindersec.github.io/getting_started/install_cli">download the
-    <code>minder</code> command line</a> and use
-    <pre>minder auth invite accept {{.InvitationCode}}</pre>
-    to accept the invitation.
+    organization in Minder.  You can either use the web console at {{.MinderURL}} or the
+    <a href="https://mindersec.github.io/getting_started/install_cli"><code>minder</code> command
+    line client</a> to manage {{.OrganizationName}}.  If you're looking to accept this invite
+    using the <code>minder</code> command line,
+    <code>minder auth invite accept {{.InvitationCode}}</code> will accept the invitation.
   </p>
 
   <p>
     This invitation was sent to <strong>{{.RecipientEmail}}</strong>. If you were not
     expecting it, you can ignore this email.
   </p>
+</div>
 
-  <!-- TODO: add a visual for Custcodian -->
-  <p>
-    <a href="https://custcodian.dev/">Minder by Custcodian</a> is an open source platform
-    that helps development teams and open source communities build more secure software,
-    and prove to others that what they’ve built is secure.
-  </p>
+<div style="
+    background-color: #ccc;
+    color: #000000;
+    font-family: 'Josefin Sans', 'Open Sans', 'Arial Nova', 'Nimbus Sans', Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 24px 8px;">
+  <table>
+    <tr><td>
+      <img src="https://custcodian.dev/images/custcodian-head.png" alt="Custcodian Logo" style="width: 48px; height: 48px; margin-bottom: 8px;">
+    </td><td>
+      <a href="https://custcodian.dev/">Minder by Custcodian</a> is an open source platform
+      that helps development teams and open source communities build more secure software,
+      and prove to others that what they’ve built is secure.
+    </td></tr>
+  </table>
 
   <p>
     For more about Custcodian, see https://custcodian.dev/
