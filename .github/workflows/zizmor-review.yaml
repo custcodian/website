@@ -13,7 +13,6 @@ jobs:
     name: Zizmor Static Analysis
     runs-on: ubuntu-latest
     permissions:
-      security-events: write # Required to upload SARIF results
       contents: read         # Required to check out the code
       actions: read          # Required for zizmor's online repository audits
 
