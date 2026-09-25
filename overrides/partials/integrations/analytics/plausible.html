@@ -3,6 +3,7 @@
   data-domain="{{ config.extra.analytics.domain }}"
   src="{{ config.extra.analytics.src | default("https://plausible.io/js/plausible.js", true) }}"
   {% if config.extra.analytics.api %}data-api="{{ config.extra.analytics.api }}"{% endif %}
+  crossorigin="anonymous"
 ></script>
 
 <script>
