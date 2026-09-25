@@ -2,6 +2,11 @@ site_name: Custcodian
 # -- Automated Supply-Chain Cleanup
 
 site_url: https://custcodian.dev/
+site_description: |
+  Custcodian provides Open Source software supply chain security solutions and
+  consulting for development teams and open source communities.
+
+site_dir: _site
 
 theme:
   name: material
